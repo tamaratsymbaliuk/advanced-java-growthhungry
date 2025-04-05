@@ -1,0 +1,7 @@
+/**
+ * test
+ */
+public interface test {
+
+    
+}
