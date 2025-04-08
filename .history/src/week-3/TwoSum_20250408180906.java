@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import javax.sound.sampled.SourceDataLine;
 
 public class TwoSum {
 
@@ -10,10 +9,10 @@ public class TwoSum {
         for (int i = 0; i < nums.length; i++) {
          int currVal  = nums[i];
          int complement = target - currVal;
-             if (complements.containsKey(complement)) {
-                return new int[] {complements.get(complement), i};
+             if (map.comtainsKey(complement)) {
+                
+
             }
-            complements.put(currVal, i);
         }
         return new int[]{};
     }

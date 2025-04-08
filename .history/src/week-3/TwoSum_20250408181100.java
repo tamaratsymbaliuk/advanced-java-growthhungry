@@ -11,9 +11,8 @@ public class TwoSum {
          int currVal  = nums[i];
          int complement = target - currVal;
              if (complements.containsKey(complement)) {
-                return new int[] {complements.get(complement), i};
+                return new int[] {nums[i], complement};
             }
-            complements.put(currVal, i);
         }
         return new int[]{};
     }

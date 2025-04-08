@@ -13,7 +13,6 @@ public class TwoSum {
              if (complements.containsKey(complement)) {
                 return new int[] {complements.get(complement), i};
             }
-            complements.put(currVal, i);
         }
         return new int[]{};
     }

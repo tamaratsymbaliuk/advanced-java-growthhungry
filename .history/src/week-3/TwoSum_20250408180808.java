@@ -1,5 +1,4 @@
-import java.util.HashMap;
-import java.util.Map;
+import javax.sound.sampled.SourceDataLine;
 
 public class TwoSum {
 
@@ -8,12 +7,12 @@ public class TwoSum {
         Map<Integer, Integer> complements = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-         int currVal  = nums[i];
-         int complement = target - currVal;
-             if (complements.containsKey(complement)) {
-                return new int[] {complements.get(complement), i};
+         int cur = 0;
+         int num2 = target - num1;
+             if (map.comtainsKey(nums[i]) && ) {
+                
+
             }
-            complements.put(currVal, i);
         }
         return new int[]{};
     }

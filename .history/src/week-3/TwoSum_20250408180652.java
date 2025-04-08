@@ -1,21 +1,19 @@
-import java.util.HashMap;
-import java.util.Map;
+import javax.sound.sampled.SourceDataLine;
 
 public class TwoSum {
 
     public static int[] twoSum(int[] nums, int target) {
+        int num1 = 0;
+        int num2 = target - num1;
 
         Map<Integer, Integer> complements = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
-         int currVal  = nums[i];
-         int complement = target - currVal;
-             if (complements.containsKey(complement)) {
-                return new int[] {complements.get(complement), i};
+            if (map.comtainsKey(nums[i]) && ) {
+
             }
-            complements.put(currVal, i);
         }
-        return new int[]{};
+        return new int[]
     }
 
     public static void main(String[] args) {
