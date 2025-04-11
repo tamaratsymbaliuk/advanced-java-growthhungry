@@ -1,0 +1,3 @@
+public abstarct class Professor {
+    
+}
