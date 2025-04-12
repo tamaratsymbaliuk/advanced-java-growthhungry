@@ -1,0 +1,3 @@
+Mike, 5
+Toma,10
+Liza, 8
