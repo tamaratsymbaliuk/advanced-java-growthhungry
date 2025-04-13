@@ -1,15 +1,15 @@
 import java.io.*;
 import java.util.ArrayList;
 
-// Requirements:
+//Requirements:
 
-// Use a try-catch-finally block to handle exceptions.
+Use a try-catch-finally block to handle exceptions.
 
-// Catch specific exceptions rather than generic ones.
+Catch specific exceptions rather than generic ones.
 
-// Ensure that file resources are closed in the finally block.
+Ensure that file resources are closed in the finally block.
 
-// Create and use a custom exception(InvalidScoreException)for scores outside the valid range.
+Create and use a custom exception(InvalidScoreException)for scores outside the valid range.
 
 public class InvalidScoreException extends Exception {
     public InvalidScoreException(String message) {
