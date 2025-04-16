@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ToDoManager {
     public static void saveTasksToFile(String filePath, List<ToDo> tasks) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // no need to close writer since it's in try catch block
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) { // no need to close 
             for (ToDo task : tasks) {
                 writer.write(task.toString());
                 writer.newLine();
