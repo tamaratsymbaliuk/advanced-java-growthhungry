@@ -45,10 +45,7 @@ public class Student {
     public static Student fromString(String data) {
         String[] fields = data.split(",");
         int id = Integer.parseInt(fields[0]);
-        String name = fields[1];
-        int age = Integer.parseInt(fields[2]);
-        double grade = Double.parseDouble(fields[3]);
-        return new Student(id, name, age, grade);
+        String name = 
     }
     
 }
