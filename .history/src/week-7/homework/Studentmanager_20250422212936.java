@@ -70,25 +70,13 @@ public class StudentManager {
     
     public List<Student> loadStudents() throws IOException {
         List<Student> students = new ArrayList<>();
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath)) {
             String line;
-            while ((line = reader.readLine()) != null) {
-                students.add(Student.fromString(line));
-            }
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found. Starting fresh.");
+            while ()
         }
-        return students;
     }
 
-    public void saveStudents(List<Student> students) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            for (Student student : students) {
-                writer.write(student.toString());
-                writer.newLine();
-            }
-        }
-    }
+
  }
 
 

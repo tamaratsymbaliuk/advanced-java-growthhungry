@@ -81,14 +81,7 @@ public class StudentManager {
         return students;
     }
 
-    public void saveStudents(List<Student> students) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            for (Student student : students) {
-                writer.write(student.toString());
-                writer.newLine();
-            }
-        }
-    }
+
  }
 
 

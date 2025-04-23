@@ -85,10 +85,11 @@ public class StudentManager {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
             for (Student student : students) {
                 writer.write(student.toString());
-                writer.newLine();
             }
         }
     }
+
+
  }
 
 

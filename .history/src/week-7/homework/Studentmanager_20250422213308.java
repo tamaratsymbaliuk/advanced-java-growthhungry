@@ -72,7 +72,7 @@ public class StudentManager {
         List<Student> students = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
-            while ((line = reader.readLine()) != null) {
+            while ((line = reader.readLine() != null) {
                 students.add(Student.fromString(line));
             }
         } catch (FileNotFoundException e) {
@@ -81,14 +81,7 @@ public class StudentManager {
         return students;
     }
 
-    public void saveStudents(List<Student> students) throws IOException {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-            for (Student student : students) {
-                writer.write(student.toString());
-                writer.newLine();
-            }
-        }
-    }
+
  }
 
 
