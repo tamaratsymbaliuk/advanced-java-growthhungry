@@ -37,6 +37,10 @@ public class Student {
         this.age = age;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Name is: " + name + ", id is: " + id + " age is " + age + ", grade is: " + grade;
@@ -50,5 +54,4 @@ public class Student {
         double grade = Double.parseDouble(fields[3]);
         return new Student(id, name, age, grade);
     }
-    
 }
