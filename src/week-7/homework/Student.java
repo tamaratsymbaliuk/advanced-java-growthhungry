@@ -43,7 +43,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Name is: " + name + ", id is: " + id + " age is " + age + ", grade is: " + grade;
+        return id + "," + name + "," + age + "," + grade;
     }
 
     public static Student fromString(String data) {
