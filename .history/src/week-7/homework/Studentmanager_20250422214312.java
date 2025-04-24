@@ -11,7 +11,7 @@ public class StudentManager {
         this.filePath = filePath;
     }
     
-    public void addStudent(Student student) throws IOException {
+    public void addStudent(S student) throws IOException {
         List<Student> students = loadStudents();
         students.add(student);
         saveStudents(students);
