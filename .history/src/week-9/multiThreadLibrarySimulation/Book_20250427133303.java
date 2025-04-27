@@ -3,8 +3,6 @@ package multiThreadLibrarySimulation;
 /*
 Represents a book with checkOut() and returnBook() methods. Each
 method uses synchronized to ensure safe access by multiple threads.
-*/
-
 public class Book {
     private int id;
     private String title;

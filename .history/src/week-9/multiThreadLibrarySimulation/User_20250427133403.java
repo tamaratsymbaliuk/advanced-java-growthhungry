@@ -3,10 +3,10 @@ package multiThreadLibrarySimulation;
 import java.util.Random;
 
 /*
-Implements Runnable, representing a user performing actions on the
+mplements Runnable, representing a user performing actions on the
 Library. Each User thread randomly chooses to check out or return a
 book
-*/
+*/I
 
 public class User implements Runnable {
     private Library library;

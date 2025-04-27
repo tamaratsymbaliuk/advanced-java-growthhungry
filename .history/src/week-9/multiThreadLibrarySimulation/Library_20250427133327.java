@@ -6,7 +6,7 @@ import java.util.List;
 /*
 Holds a collection of Book objects and includes methods to add a book, get a
 book by title, and display available books.
-*/
+
 
 public class Library {
     private List<Book> books = new ArrayList<>();

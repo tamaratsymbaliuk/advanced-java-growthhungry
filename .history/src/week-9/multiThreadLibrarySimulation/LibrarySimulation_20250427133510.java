@@ -1,10 +1,6 @@
 package multiThreadLibrarySimulation;
 
-/*
-Sets up the library and books, creates user threads, starts them, and waits for
-each to finish using join(). Finally, it displays the remaining available
-books.
-*/
+
 
 public class LibrarySimulation {
     public static void main(String[] args) {
