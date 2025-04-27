@@ -20,8 +20,7 @@ public class BankAccount {
         }
     }
 
-    // Method to check balance
-    public int getBalance() {
-        return balance;
- }
+    / Method to check balance
+public int getBalance() {
+return balance;
 }

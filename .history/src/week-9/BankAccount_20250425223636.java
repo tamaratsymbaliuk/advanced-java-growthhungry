@@ -12,16 +12,8 @@ public class BankAccount {
 
     // Withdraw method to subtract funds
     public synchronized void withdraw(int amount) {
-        if (balance >= amount) {
-            balance -= amount;
-            System.out.println("Withdrew " + amount + ", Current Balance: " + balance);
-        } else {
-            System.out.println("Insufficient funds for withdrawal of " + amount);
-        }
-    }
-
-    // Method to check balance
-    public int getBalance() {
-        return balance;
- }
-}
+if (balance >= amount) {
+balance -= amount;
+System.out.println("Withdrew " + amount + ", Current Balance: " + balance);
+} else {
+System.out.println("Insufficient funds for withdrawal of " + amount);

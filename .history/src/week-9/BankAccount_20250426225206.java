@@ -23,5 +23,5 @@ public class BankAccount {
     // Method to check balance
     public int getBalance() {
         return balance;
- }
+}
 }
