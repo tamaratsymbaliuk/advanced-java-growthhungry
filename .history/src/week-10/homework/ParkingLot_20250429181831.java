@@ -15,6 +15,7 @@ public class ParkingLot {
             spots.acquire();
             System.out.println(car + " got a spot");
             Thread.sleep((long) (Math.random() * 5000)); // Simulate parking duration
+
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         } finally {
