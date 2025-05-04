@@ -15,7 +15,7 @@ public class EmployeeManagementSystem {
 
                 // 2. Sort Employees by Salary
                 System.out.println("\nEmployees sorted by salary (ascending):");
-                List<Employee> sortedBySalary = sortEmployees(employees,Comparator.comparing(Employee::getSalary));
+                List<Employee> sortedBySalary = sortEmployees(employees, Comparator.comparing(Employee::getSalary));
                 sortedBySalary.forEach(System.out::println);
                 
                 // 3. Transform Employee Names to Uppercase
